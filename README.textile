@@ -1,0 +1,9 @@
+h2. Usage:
+
+<pre><code>
+$oClassReflect = new ReflectionClass("MyClass");
+$sDocComment = $oClassReflect->getDocComment();
+
+$parser = new Parser();
+$annotations = $parser->parse($sDocComment);
+</pre></code>
