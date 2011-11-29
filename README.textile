@@ -7,3 +7,7 @@ $sDocComment = $oClassReflect->getDocComment();
 $parser = new Parser();
 $annotations = $parser->parse($sDocComment);
 </pre></code>
+
+h2. Info:
+
+Please see "these slides":https://kotuha.be/nj11leuven/#slide4
